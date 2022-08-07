@@ -1,0 +1,54 @@
+.list-item {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	border-bottom: 1px solid #B3B3B3;
+	cursor: pointer;
+}
+
+.list-item__checkbox {
+	flex-shrink: 0;
+	margin: 0 20px 0;
+	border: 1px solid #B3B3B3;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+
+.list-item__checkbox_completed {
+	background-image: url(../../images/Checkmark.svg);
+	background-position: center;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+
+.list-item__text {
+	margin: 0 20px;
+	font-size: 1.3rem;
+	word-break: break-all;
+}
+
+.list-item__text_completed {
+	text-decoration: line-through;
+	color: rgba(170, 169, 169, 0.5);
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 575px) {
+	.list-item__checkbox {
+		margin: 0 0 0 15px;
+		height: 25px;
+		width: 25px;
+	}
+
+	.list-item__checkbox_completed {
+		background-size: 15px 15px;
+	}
+
+	.list-item__text {
+		font-size: 1.1rem;
+		margin: 0 15px;
+	}
+}
