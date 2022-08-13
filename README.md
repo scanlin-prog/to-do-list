@@ -12,9 +12,9 @@ HTML5, CSS3 ,React, React Hooks.
 
 Для запуска сайта перейти по [ссылке](https://scanlin-prog.github.io/to-do-list/ "От Архонта") 
 
-> npm run start - запуск локального хоста
-> npm run build - сборка проекта для production
-> npm run deploy - прямая загрузка файлов на сам сайт (не в репозиторий)
++ **npm run start** - запуск локального хоста
++ **npm run build** - сборка проекта для production
++ **npm run deploy** - прямая загрузка файлов на сам сайт (не в репозиторий)
 
 ## План по разработке
 
